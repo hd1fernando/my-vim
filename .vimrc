@@ -1,15 +1,10 @@
-set nocompatible
+" Mostrar número de linhas
 set nu
+
+" Ativar destaque de sintaxe
 syntax on
-set encoding=utf-8
-set showcmd
-filetype plugin indent on
 
-set tabstop=4 shiftwidth=4
-set expandtab
-set backspace
+" Diagnóstico
+" set verbosefile=~/.vim/verbose.log
+" set verbose=15
 
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
